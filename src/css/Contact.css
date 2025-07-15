@@ -1,0 +1,13 @@
+   .container-contact{
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color:#003153 ;
+    color: white;
+    padding-top:25px;
+    padding-bottom: 25px;
+    height:30px;
+    
+   }

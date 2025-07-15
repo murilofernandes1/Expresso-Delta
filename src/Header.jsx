@@ -1,14 +1,15 @@
 import './css/Header.css'
+import {Link} from 'react-router-dom'
+
 
 function Header () {
 
+
     return (
         <div className="header">
-        <h1>
-            Expresso Delta
-        </h1>
+        <img alt='foto-logo'className='logo' src='logo.png'></img>
         <div className='services'>
-        <button>Agendar uma coleta</button>
+        <Link className='link' to="/coleta">Coleta</Link>
         <button>Entrar em contato</button>
         </div>
         </div>
