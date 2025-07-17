@@ -1,22 +1,13 @@
         import React from 'react';
-        import { BrowserRouter, Routes, Route, Link } from 'react-router-dom';
-        import Home from './Home';
-        import Header from './Header';
-        import Coleta from './Coleta'; 
-        import Contact from './Contact';
-
+        import Home from './routes/Home';
+        import Header from './components/Header';
+        import Contact from './components/Contact';
         function App() {
-          return (
-            <BrowserRouter>
-              <Header/>
-              <Home/>
-              <Contact/>
-                <Routes>
-                  <Route path="/" element={<Home />} />
-                </Routes>
-                
-            </BrowserRouter>
-          );
+        
+            return(
+                <><Header /><Home /><Contact /></>
+            )
+       
         }
 
         export default App;
