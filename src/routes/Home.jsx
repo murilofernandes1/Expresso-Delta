@@ -7,24 +7,21 @@ function Home(){
         
 
             <div className='cards-container'>
-                <div class="card">
-                    <div class="card-details">
-                    <p class="text-title">Foto</p>
-                    <p class="text-body">Fotos</p>
+                <div className="card">
+                    <div className="card-details">
+                    <p className="text-title">Confiança</p>
                     </div>
                 </div>
                 
-                <div class="card">
-                    <div class="card-details">
-                    <p class="text-title">Foto</p>
-                    <p class="text-body">Fotos</p>
+                <div className="card img-1">
+                    <div className="card-details">
+                    <p className="text-title">Credibilidade</p>
                     </div>
                 </div>
 
-                <div class="card">
-                    <div class="card-details">
-                    <p class="text-title">Foto</p>
-                    <p class="text-body">Fotos</p>
+                <div className="card img-2">
+                    <div className="card-details">
+                    <p className="text-title">Agilidade</p>
                     </div>
                 </div>
             </div>

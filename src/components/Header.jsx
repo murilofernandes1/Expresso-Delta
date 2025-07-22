@@ -8,7 +8,9 @@ function Header () {
 
     return (
         <div className="header">
+        <a href='/'>
         <img alt='foto-logo'className='logo' src={Logo}></img>
+        </a>
         <div className='services'>
         <Link className='link' to="/coleta">Agendar uma coleta</Link>
         <button>Entrar em contato</button>
