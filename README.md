@@ -8,7 +8,7 @@
 
 <img width="1583" height="673" alt="image" src="https://github.com/user-attachments/assets/f5bcc2fc-2757-46cc-88e6-8b1134aed286" />
 
-## Para gerar uma interface amigável para o usuario, utilizei o SweetAlert, criando um alert personalizado com a paleta do site para tratar sucessos e erros nas requisisões.
+## Para gerar uma interface amigável para o usuario, utilizei o SweetAlert, criando um alert personalizado com a paleta do site para tratar sucessos e erros nas requisições.
 
 <img width="905" height="606" alt="image" src="https://github.com/user-attachments/assets/4b5f757d-2022-4ca1-b66f-d3c8fa6e54f6" />
 
