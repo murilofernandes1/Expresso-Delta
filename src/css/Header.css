@@ -28,7 +28,7 @@
   cursor: pointer;
   width: 150px;
   height: 50px;
-  background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+  background-color: white;
   border-radius: 30px;
   border: 1px solid #8F9092;
   transition: all 0.2s ease;
@@ -41,7 +41,13 @@
 
 .link:hover, button:hover{
 
- width: 152px;
-  height: 52px;
+  background: black;
+  
+  rect {
+    stroke-width: 5;
+    stroke-dasharray: 15, 310;
+    stroke-dashoffset: 48;
+    transition: all 1.35s cubic-bezier(0.19, 1, 0.22, 1);
+  }
 }
 
