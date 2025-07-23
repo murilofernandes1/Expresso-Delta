@@ -1,14 +1,12 @@
-import React from 'react';
-import ReactDOM from 'react-dom/client';
-import './css/index.css';
-import {Route, Routes, BrowserRouter} from 'react-router-dom'
-import App from './App';
+import React from "react";
+import ReactDOM from "react-dom/client";
+import "./css/index.css";
+import { Route, Routes, BrowserRouter } from "react-router-dom";
+import App from "./App";
+import Coleta from "./routes/Coleta";
+import Sobre from "./routes/Sobre";
 
-import Coleta from './routes/Coleta';
-import Contato from './routes/Contato';
-
-
-const root = ReactDOM.createRoot(document.getElementById('root'));
+const root = ReactDOM.createRoot(document.getElementById("root"));
 
 root.render(
   <React.StrictMode>
@@ -16,7 +14,7 @@ root.render(
       <Routes>
         <Route path="/" element={<App />} />
         <Route path="/Coleta" element={<Coleta />} />
-        <Route path="/Contato" element={<Contato />} />
+        <Route path="/Sobre" element={<Sobre />} />
       </Routes>
     </BrowserRouter>
   </React.StrictMode>

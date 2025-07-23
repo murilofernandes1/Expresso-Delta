@@ -1,8 +1,11 @@
 import '../css/Sobre.css'
+import Header from '../components/Header';
+import Contact from '../components/Contact';
 
 function Sobre() {
   return (
     <>
+      <Header/>
       <div className="sobre-container"></div>
       <h2 className='sobre-header'>Sobre Nós</h2>
       <p className="sobre">
@@ -19,6 +22,7 @@ function Sobre() {
         quilômetro percorrido carrega o nosso compromisso com a eficiência, a
         responsabilidade e o respeito.
       </p>
+      <Contact/>
     </>
   );
 }

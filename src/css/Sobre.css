@@ -1,18 +1,17 @@
 .sobre-container{
   display: flex;
   justify-content: center;
-  padding: 25px;
-  margin: 10px;
+  padding-top: 100px;
 }
 .sobre-header
 {
-    font-size: 2rem;
+    font-size: 3rem;
     text-align: center;
     
 }
 .sobre{
     
-    font-size: 1rem;
+    font-size: 1.2rem;
     padding: 25px;
     margin: 0;
     font-weight: 700;
