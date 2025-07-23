@@ -1,0 +1,19 @@
+.sobre-container{
+  display: flex;
+  justify-content: center;
+  padding: 25px;
+  margin: 10px;
+}
+.sobre-header
+{
+    font-size: 2rem;
+    text-align: center;
+    
+}
+.sobre{
+    
+    font-size: 1rem;
+    padding: 25px;
+    margin: 0;
+    font-weight: 700;
+}

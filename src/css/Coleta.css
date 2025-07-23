@@ -1,40 +1,45 @@
-.container-coleta{
+.container-coleta {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
-  background-image: url('../assets/caminhao-home.png');
+  background-image: url("../assets/caminhao-home.png");
   background-size: cover;
   background-position: center;
   padding-top: 150px;
-  
-
 }
 
-form{
+.agende{
+  padding-top: 0px;
+  font-size: 2rem;
+}
+
+form {
   width: 30%;
   height: 100%;
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  border-width: 10px; /* Espessura da borda */
-  border-style: solid; /* Estilo da borda (solid, dashed, dotted, etc.) */
-  border-color: #003153; /* Cor da borda */
-  padding: 30px; /* Espaçamento interno */
-  border-radius: 10px; /* Cantos arredondados */
-  background-color: #FFF;
+  padding-top: 50px;
+  padding: 70px;
+  border-radius: 10px;
+  background-color: #ffff;
   margin: 20px;
-  gap: 30px
-
- 
+  gap: 25px;
 }
-input{
+input,
+select {
   height: 35px;
   width: 300px;
   border-color: #003153;
-  border-width: 1px; /* Espessura da borda */
+  border-width: 1.5px; 
   border-style: solid;
   border-radius: 10px;
-  outline-color: #003153
+  outline-color: #003153;
+}
+label {
+  padding-top: 10px;
+  font-size: 1.2rem;
+  font-weight: 700;
 }
