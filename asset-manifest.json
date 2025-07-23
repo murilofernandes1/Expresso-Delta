@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/Expresso-Delta/static/css/main.a9a3f2ca.css",
-    "main.js": "/Expresso-Delta/static/js/main.89c44b41.js",
+    "main.js": "/Expresso-Delta/static/js/main.72f3e43f.js",
     "static/media/funcionarios1.png": "/Expresso-Delta/static/media/funcionarios1.4a0aa0423e6350f662a0.png",
     "static/media/caminhao-home.png": "/Expresso-Delta/static/media/caminhao-home.1a6f804d4f38e9f53a40.png",
     "static/media/funcionarios2.png": "/Expresso-Delta/static/media/funcionarios2.2d744357aac716e3597b.png",
@@ -11,10 +11,10 @@
     "index.html": "/Expresso-Delta/index.html",
     "static/media/mail.svg": "/Expresso-Delta/static/media/mail.051b0c7d79863483cc81f964eda8fcaf.svg",
     "main.a9a3f2ca.css.map": "/Expresso-Delta/static/css/main.a9a3f2ca.css.map",
-    "main.89c44b41.js.map": "/Expresso-Delta/static/js/main.89c44b41.js.map"
+    "main.72f3e43f.js.map": "/Expresso-Delta/static/js/main.72f3e43f.js.map"
   },
   "entrypoints": [
     "static/css/main.a9a3f2ca.css",
-    "static/js/main.89c44b41.js"
+    "static/js/main.72f3e43f.js"
   ]
 }
