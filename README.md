@@ -1,6 +1,6 @@
 # Expresso Delta
 
-https://murilofernandes1.github.io/Expresso-Delta/#/coleta
+https://murilofernandes1.github.io/Expresso-Delta/#/
 
 # Este é um site de uma transportadora ficticia.
 
